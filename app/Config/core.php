@@ -106,7 +106,7 @@
  * 	Routing.prefixes = array('admin', 'manager');
  *
  * Enables:
- *	`admin_index()` and `/admin/controller/index`
+ *	`admin_index()`f and `/admin/controller/index`
  *	`manager_index()` and `/manager/controller/index`
  *
  */
@@ -184,12 +184,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'jsdklasjdlksajdlkasjdlkasjdkasljd01293809283092138');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645');
+	Configure::write('Security.cipherSeed', '09128373971293871928389127310293812');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
