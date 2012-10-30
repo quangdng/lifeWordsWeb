@@ -1,6 +1,6 @@
 <?php
 App::uses('AppModel', 'Model');
-App::uses('AuthComponent', 'Controller/Component');
+//App::uses('AuthComponent', 'Controller/Component');
 
 /**
  * User Model
@@ -27,21 +27,44 @@ class User extends AppModel {
  */
 	public $validate = array(
 
-        'User_Password' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'A password is required'
-            )
-        ),
-		
-		'User_Email' => array(
+        'User_Email' => array(
             'valid' => array(
 				'rule' => array('email'),
 				'message' => 'Please enter a valid email',
 				'allowEmpty' => false
+			),
+			'Unique User Email'=> array(
+				'rule' => array('isUnique'),
+				'message' => 'This Email is already taken by another user'
 			)
-		)	
+		),
+		
+		'User_Password' => array(
+            'Not empty' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'Please enter your password'
+            ),
+			'Match passwords' => array(
+				'rule' =>'matchPasswords',
+				'message'=>'Your passwords do not match'
+			)
+        ),
+		
+		'User_Password_Confirmation' => array(
+			'Not empty' => array(
+			'rule' => 'notEmpty',
+			'message' => 'Please confirm your password'
+			)
+		)
     );
+	
+	public function matchPasswords($data) {
+		if ($data['User_Password'] ==$this->data['User']['User_Password_Confirmation']){
+		return true;	
+		}
+		$this->invalidate('User_Password_Confirmation', 'Your passwords do not match');
+		return false;
+	}
 
 
 /**
@@ -49,9 +72,14 @@ class User extends AppModel {
  */	
 	public function beforeSave($options = array()) {
     	if (isset($this->data[$this->alias]['User_Password'])) {
-        	$this->data[$this->alias]['User_Password'] = AuthComponent::password($this->data[$this->alias]['User_Password']);
+        	$this->data[$this->alias]['User_Password'] = sha1($this->data[$this->alias]['User_Password']);
     	}
     	return true;
 	}
 
+ /**
+ function hashPasswords($data) {
+         $data['User']['User_Password'] = sha1($data['User']['User_Password']);
+         return $data;
+    }*/
 }

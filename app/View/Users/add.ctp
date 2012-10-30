@@ -5,6 +5,7 @@
 	<?php
 		echo $this->Form->input('User_Email');
 		echo $this->Form->input('User_Password', array('type' => 'password'));
+		echo $this->Form->input('User_Password_Confirmation', array('type' => 'password'));
 		echo $this->Form->input('User_Profile_Photo');
 		echo $this->Form->input('User_Nickname');
 	?>
@@ -15,6 +16,6 @@
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
 
-		<li><?php echo $this->Html->link(__('List Users'), array('action' => 'index')); ?></li>
+		<li><?php echo $this->Html->link(__('List Users'), array('action' => 'admin')); ?></li>
 	</ul>
 </div>

@@ -57,6 +57,31 @@ class UsersController extends AppController {
 	}
 
 /**
+ * profile method
+ *
+ * @return void
+ */
+
+	public function profile(){
+		$this->User->id = $this->Auth->user('User_ID');
+		
+        if (!$this->User->exists()) {
+            throw new NotFoundException(__('Invalid user'));
+        }
+		
+		if ($this->request->is('post') || $this->request->is('put')) {
+            if ($this->User->save($this->request->data)) {
+                $this->Session->setFlash(__('Profile have been changed!'));
+                $this->redirect(array('action' => 'profile'));
+            } else {
+                $this->Session->setFlash(__('Whoops, user profile could not be changed! Please try again!'));
+            }
+        } 
+		
+		$this->set('user', $this->User->read(null, $this->Auth->user('User_ID')));
+	}
+
+/**
  * view method
  *
  * @throws NotFoundException

@@ -2046,3 +2046,417 @@
 #1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-10-26 15:25:54 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 11:02:17 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 11:02:24 Error: [MissingActionException] Action UsersController::home() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 11:02:32 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 11:06:12 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 12:02:08 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view()
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 12:02:14 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view('2')
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 12:02:17 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view('3')
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 12:02:21 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view('7')
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 12:02:24 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view('8')
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 12:02:34 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view('10')
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 12:02:37 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view('11')
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 12:02:41 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view()
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 12:25:29 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 12:25:45 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view()
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 12:25:51 Error: [MissingActionException] Action UsersController::home() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 12:26:02 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 12:28:09 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sarath@yahoo.com' for key 'Unique_Email'
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `li...', Array)
+#2 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `li...')
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Model/Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 /Users/Sarath/Documents/Mamp/lifewords/app/Controller/UsersController.php(82): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-10-28 12:39:16 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 12:58:31 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 13:00:40 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 13:01:09 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 16:58:23 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 16:59:34 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 16:59:53 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:00:00 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:00:07 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:00:13 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:00:44 Error: [MissingActionException] Action UsersController::lof() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:00:48 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:00:58 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:01:12 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:01:26 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:01:46 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:03:12 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:04:31 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:04:48 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:05:47 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:06:05 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:06:11 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:12:03 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:12:09 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:55:18 Error: [CakeException] Authentication adapter "useTable" was not found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Component/AuthComponent.php(583): AuthComponent->constructAuthenticate()
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->_getUser()
+#2 [internal function]: AuthComponent->startup(Object(PagesController))
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Utility/ObjectCollection.php(130): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#8 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-10-28 17:56:29 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:58:03 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:58:09 Error: [CakeException] Authentication adapter "useTable" was not found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Component/AuthComponent.php(630): AuthComponent->constructAuthenticate()
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Component/AuthComponent.php(510): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/Controller/UsersController.php(51): AuthComponent->login()
+#3 [internal function]: UsersController->login()
+#4 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-28 17:59:20 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:59:22 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:59:27 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 17:59:35 Error: [CakeException] Authentication adapter "useTable" was not found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Component/AuthComponent.php(630): AuthComponent->constructAuthenticate()
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Component/AuthComponent.php(510): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/Controller/UsersController.php(51): AuthComponent->login()
+#3 [internal function]: UsersController->login()
+#4 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-28 18:03:16 Error: [CakeException] Authentication adapter "useTable" was not found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Component/AuthComponent.php(630): AuthComponent->constructAuthenticate()
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Component/AuthComponent.php(510): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/Controller/UsersController.php(51): AuthComponent->login()
+#3 [internal function]: UsersController->login()
+#4 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-28 18:08:54 Error: [MissingActionException] Action UsersController::a() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 18:09:00 Error: [CakeException] Authentication adapter "useTable" was not found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Component/AuthComponent.php(583): AuthComponent->constructAuthenticate()
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->_getUser()
+#2 [internal function]: AuthComponent->startup(Object(PagesController))
+#3 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Utility/ObjectCollection.php(130): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#8 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-10-28 18:09:27 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 18:09:48 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 18:11:03 Error: [MissingControllerException] Controller class AddController could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 18:12:07 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 18:12:26 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-28 18:12:59 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/Sarath/Documents/Mamp/lifewords/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/Sarath/Documents/Mamp/lifewords/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-29 07:58:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\Model.php(3179): Model->setSource('Users')
+#5 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\View\Helper\FormHelper.php(438): FormHelper->_introspectModel('User', 'fields')
+#8 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\View\Users\login.ctp(20): FormHelper->create()
+#9 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\View\View.php(921): include('C:\Users\Dil\De...')
+#10 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\View\View.php(884): View->_evaluate('C:\Users\Dil\De...', Array)
+#11 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\View\View.php(476): View->_render('C:\Users\Dil\De...')
+#12 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#13 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-10-29 07:58:42 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-29 08:00:26 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\Model.php(3179): Model->setSource('Users')
+#5 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\View\Helper\FormHelper.php(438): FormHelper->_introspectModel('User', 'fields')
+#8 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\View\Users\login.ctp(20): FormHelper->create()
+#9 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\View\View.php(921): include('C:\Users\Dil\De...')
+#10 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\View\View.php(884): View->_evaluate('C:\Users\Dil\De...', Array)
+#11 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\View\View.php(476): View->_render('C:\Users\Dil\De...')
+#12 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#13 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-10-29 08:00:26 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-29 08:00:40 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-29 08:00:50 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-29 08:01:24 Error: [MissingActionException] Action UsersController::style.css() could not be found.
+#0 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-29 08:01:34 Error: [MissingActionException] Action UsersController::userEdit() could not be found.
+#0 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-29 08:01:37 Error: [MissingActionException] Action UsersController::logout() could not be found.
+#0 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

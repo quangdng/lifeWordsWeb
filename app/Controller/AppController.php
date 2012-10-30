@@ -33,7 +33,7 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
     
-	public $components = array(
+	/**public $components = array(
         'Session',
         'Auth' => array(
             'loginRedirect' => array('controller' => 'users', 'action' => 'admin'),
@@ -41,7 +41,7 @@ class AppController extends Controller {
 			'authorize' => array('Controller')
         )
 		
-    );
+    );*/
 	
 	
 
@@ -53,4 +53,15 @@ class AppController extends Controller {
     public function beforeFilter() {
         $this->Auth->allow('index', 'add');
 	}
+	
+	public $components = array(
+    	'Session',
+    	'Auth' => array(
+        	'authenticate' => array(
+            	'Form' => array(
+                	'fields' => array('username' => 'User_Email','password' => 'User_Password')
+            	)
+        	)
+    	)
+	);
 }
