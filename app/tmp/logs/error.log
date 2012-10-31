@@ -2465,8 +2465,6 @@
 #1 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\Users\Dil\Desktop\xampp\htdocs\lifewords-new\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
-2012-10-30 19:13:59 Error: [MissingActionException] Action AppController::index() could not be found.
-#0 C:\Users\Dil\Desktop\xampp\htdocs\lifewords\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
-#1 C:\Users\Dil\Desktop\xampp\htdocs\lifewords\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
-#2 C:\Users\Dil\Desktop\xampp\htdocs\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
+2012-10-31 02:49:02 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\Users\Dil\Desktop\xampp\htdocs\lifewords\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
