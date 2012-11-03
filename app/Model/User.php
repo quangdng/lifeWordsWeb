@@ -55,6 +55,13 @@ class User extends AppModel {
 			'rule' => 'notEmpty',
 			'message' => 'Please confirm your password'
 			)
+		),
+		
+		'User_Nickname' => array(
+			'Not empty' => array(
+			'rule' => 'notEmpty',
+			'message' => 'Please write your nickname'
+			)
 		)
     );
 	
@@ -77,9 +84,4 @@ class User extends AppModel {
     	return true;
 	}
 
- /**
- function hashPasswords($data) {
-         $data['User']['User_Password'] = sha1($data['User']['User_Password']);
-         return $data;
-    }*/
 }

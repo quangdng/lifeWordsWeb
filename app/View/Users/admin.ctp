@@ -15,7 +15,13 @@
 		<td><?php echo h($user['User']['User_ID']); ?>&nbsp;</td>
 		<td><?php echo h($user['User']['User_Email']); ?>&nbsp;</td>
 		<td><?php echo h($user['User']['User_Password']); ?>&nbsp;</td>
-		<td><?php echo h($user['User']['User_Profile_Photo']); ?>&nbsp;</td>
+        
+        <?php echo $this->Html->image('lifewords.png',array('border'=>'0', 
+'width'=>'350', 'height'=>'120')); ?>
+
+		<td><?php $path = 'http://'.$_SERVER['SERVER_NAME'];
+		echo $this->Html->image($path.h($user['User']['User_Profile_Photo']), array('border' => 0, 'width' => '200', 'height' => '200'));
+		?>&nbsp;</td>
 		<td><?php echo h($user['User']['User_Nickname']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $user['User']['User_ID'])); ?>
