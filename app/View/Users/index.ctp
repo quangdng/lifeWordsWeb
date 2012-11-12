@@ -1,14 +1,12 @@
+<div id="header"> THE HEADER BITCH</div>
 <?php echo $this->Form->create('User'); ?>
-<div id="fields" align="center">
+<div id="fields" align="right">
 	<?php
-		echo $this->Form->input('User_Email');
-		echo $this->Form->input('User_Password', array('type' => 'password'));
+		echo $this->Form->input('User_Email', array('label' => 'Email'));
+		echo $this->Form->input('User_Password', array('type' => 'password', 'label' => 'Password'));
 	?>
 </div>
-<div align="center">
 	<?php echo $this->Form->end(__('Login!')); ?>
-	<div style="padding-bottom:5px;">
-		<div style="color:#000;">Don't have a Lifewords account?</div>
-		<?php echo $this->Html->link('Sign Up Now!', array('controller' => 'users', 'action' => 'signup'));?>
-    </div>
+<div align="left" style="padding-left:35px; padding-bottom:20px;">
+	<?php echo $this->Html->link('Sign Up Now!', array('controller' => 'users', 'action' => 'signup'));?>
 </div>

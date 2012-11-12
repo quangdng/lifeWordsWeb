@@ -1,6 +1,11 @@
-<h4><?php echo "Welcome to Lifewords!"; ?></h4>
+<h2><?php echo "Welcome to Lifewords!"; ?></h2>
+
 <?php echo h($user['User']['User_Email']) ?>
+<p>
 <?php echo "Change Picture" ?>
+</p>
 <?php echo $this->Html->link('Edit Profile', array('controller' => 'users', 'action' => 'userEdit')); ?>
+
 <?php echo "View Friends" ?>
-<?php echo $this->Form->postLink('Logout', array('controller' => 'users', 'action' => 'logout')); ?>
+
+<div align="center"></div>

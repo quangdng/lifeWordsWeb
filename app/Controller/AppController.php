@@ -33,25 +33,15 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
     
-	/**public $components = array(
-        'Session',
-        'Auth' => array(
-            'loginRedirect' => array('controller' => 'users', 'action' => 'admin'),
-            'logoutRedirect' => array('controller' => 'users', 'action' => 'index'),
-			'authorize' => array('Controller')
-        )
-		
-    );*/
-	
-	
-
 	public function isAuthorized($user) {
-    	#if (isset($user['User_ID']) && $user['User_ID'] === '1') {
+    	if (isset($user['User_ID']) && $user['User_ID'] === '1') {
         	return true;
+		}
+		return false;
 	}
 
     public function beforeFilter() {
-        $this->Auth->allow('index', 'add');
+        $this->Auth->allow('index');
 	}
 	
 	public $components = array(
@@ -61,7 +51,10 @@ class AppController extends Controller {
             	'Form' => array(
                 	'fields' => array('username' => 'User_Email','password' => 'User_Password')
             	)
-        	)
+        	),
+			'loginRedirect' => array('controller' => 'Users', 'action' => 'profile'),
+			'logoutRedirect' => array('controller' => 'Users', 'action' => 'index' ),
+			'authorize' => array('Controller')
     	)
 	);
 }

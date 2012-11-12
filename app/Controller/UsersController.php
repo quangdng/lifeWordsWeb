@@ -12,9 +12,26 @@ class UsersController extends AppController {
 	public function beforeFilter() {
         parent::beforeFilter();
 		$this->Auth->fields = array('username' => 'User_Email', 'password' => 'User_Password');
-        $this->Auth->allow('index','register', 'logout','signup');
+        $this->Auth->allow('index','logout','signup');
     }
-	
+
+/**
+ * isAuthorized method
+ *
+ * @param User $user
+ * @return boolean true
+ */
+
+	public function isAuthorized($user) {
+
+		if($this->action === 'profile'){
+			return true;
+		}
+		
+		return parent::isAuthorized($user);
+	}	
+
+
 /**
  * admin method
  *
@@ -32,6 +49,11 @@ class UsersController extends AppController {
  */
 	public function index(){
 		$this->layout = 'frontpage';
+		if ($this->Auth->user())
+    	{
+        	$this->redirect('profile');
+    	}
+		
 		if ($this->request->is('post')) {
         	if ($this->Auth->login()) {
            		$this->redirect($this->Auth->redirect());
@@ -40,6 +62,23 @@ class UsersController extends AppController {
        		}
     	}	
 	}
+	
+	
+/**
+ * profile method
+ *
+ * @return void
+ */
+ 	public function profile(){
+		$this->layout = "dashboard";
+		$this->User->id = $this->Auth->user('User_ID');
+        if (!$this->User->exists()) {
+            throw new NotFoundException(__('Invalid user'));
+        }
+		$this->set('user', $this->User->read(null, $this->Auth->user('User_ID')));
+	}
+ 
+ 
 
 /**
  * login method
@@ -47,6 +86,11 @@ class UsersController extends AppController {
  * @return void
  */
  	public function login(){
+		$this->layout = 'frontpage';
+		if ($this->Auth->user())
+    	{
+        	$this->redirect('profile');
+    	}
 		if ($this->request->is('post')) {
         	if ($this->Auth->login()) {
 				$this->redirect($this->Auth->redirect());
@@ -99,6 +143,10 @@ class UsersController extends AppController {
  */	
 	public function signup() {
 		$this->layout = 'frontpage';
+		if ($this->Auth->user())
+    	{
+        	$this->redirect('profile');
+    	}
 		$this->set('title_for_layout','Sign up!');
 		if ($this->request->is('post')) {
 			$this->User->create();
@@ -157,16 +205,6 @@ class UsersController extends AppController {
 		}
 		$this->Session->setFlash(__('User was not deleted'));
 		$this->redirect(array('action' => 'index'));
-	}
-
-/**
- * isAuthorized method
- *
- * @param User $user
- * @return boolean true
- */
-	public function isAuthorized($user) {
-        	return true;
 	}
 }
 
