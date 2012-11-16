@@ -7,6 +7,26 @@ App::uses('AppController', 'Controller');
  */
 class CardsController extends AppController {
 
+	public function beforeFilter() {
+        parent::beforeFilter();
+	}
+	
+/**
+ * isAuthorized method
+ *
+ * @param User $user
+ * @return boolean true
+ */
+
+	public function isAuthorized($user) {
+
+		if(in_array($this->action, array('addcard', 'index'))){
+			return true;
+		}
+		
+		return parent::isAuthorized($user);
+	}	
+
 /**
  * index method
  *
@@ -96,4 +116,22 @@ class CardsController extends AppController {
 		$this->Session->setFlash(__('Card was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
+/**
+ *
+ * addcard method
+ *
+ * @return void
+ */
+ 
+ 	public function addcard(){
+		if ($this->request->is('post')) {
+			$this->Card->create();
+			$this->request->data['Card']['Card_Owner'] = $this->Auth->user('User_ID');
+        	if ($this->Card->save($this->request->data)) {
+				$this->Session->setFlash('Your card has been saved.');
+            	$this->redirect(array('action' => 'index'));
+        	}
+    	}
+	}
 }
+

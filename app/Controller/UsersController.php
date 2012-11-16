@@ -13,7 +13,7 @@ class UsersController extends AppController {
         parent::beforeFilter();
 		$this->Auth->fields = array('username' => 'User_Email', 'password' => 'User_Password');
         $this->Auth->allow('index','logout','signup');
-    }
+    }	
 
 /**
  * isAuthorized method
@@ -26,6 +26,10 @@ class UsersController extends AppController {
 
 		if($this->action === 'profile'){
 			return true;
+		}
+		
+		if(in_array($this->action, array('Cards/index'))){
+			return true;	
 		}
 		
 		return parent::isAuthorized($user);
