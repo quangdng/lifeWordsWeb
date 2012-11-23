@@ -1,9 +1,13 @@
-<div id="header"> THE HEADER BITCH</div>
+<div id="header" align="center">        <?php echo $this->Html->image('lifewords.png',array('border'=>'0', 
+'width'=>'250', 'height'=>'40')); ?>
+
+</div>
+<div id="headerline"></div>
 <?php echo $this->Form->create('User'); ?>
 <div id="fields" align="right">
 	<?php
-		echo $this->Form->input('User_Email', array('label' => 'Email'));
-		echo $this->Form->input('User_Password', array('type' => 'password', 'label' => 'Password'));
+		echo $this->Form->input('User_Email', array('label' => 'Email: '));
+		echo $this->Form->input('User_Password', array('type' => 'password', 'label' => 'Password: '));
 	?>
 </div>
 	<?php echo $this->Form->end(__('Login!')); ?>

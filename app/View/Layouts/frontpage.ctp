@@ -36,15 +36,13 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	?>
 </head>
 <body>
-<div align="center">
-        <?php echo $this->Html->image('lifewords.png',array('border'=>'0', 
-'width'=>'350', 'height'=>'120')); ?>
-</div>
-	<div align="center">
-	    <div id="content">
-			<?php echo $this->fetch('content'); ?>
+	<div id="floater">
+		<div align="center">
+        	<div id="content">
+				<?php echo $this->fetch('content'); ?>
+			</div>
+			<?php echo $this->Session->flash(); ?>
 		</div>
-        <?php echo $this->Session->flash(); ?>
-	</div>
+    </div>
 </body>
 </html>
