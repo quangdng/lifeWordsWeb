@@ -22,7 +22,7 @@ iOS Mobile App
 Website
   - User registration
   - User login, logout
-  - View postcards online
+  - View & share postcards online
 
 # Contact Details
 Quang Nguyen (quang.dn@icloud.com)
