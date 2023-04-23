@@ -23,6 +23,3 @@ Website
   - User registration
   - User login, logout
   - View & share postcards online
-
-# Contact Details
-Quang Nguyen (quang.dn@icloud.com)
